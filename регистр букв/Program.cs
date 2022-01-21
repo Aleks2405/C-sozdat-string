@@ -12,12 +12,16 @@ namespace регистр_букв
             size = Int32.Parse(Console.ReadLine());// для того чтобы ввести число с клавиатуры
             int[] numbers = new int[size];
             int i = 0;
-
+            Console.WriteLine("Введите с какого числа будет начало");
             for (i = Int32.Parse(Console.ReadLine()); i < numbers.Length; i++)
             {
-                Console.WriteLine(i + " ");
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write(i + " " + "\n");
+                }
+                //Console.WriteLine(i);
             }
-            Console.WriteLine(IsNumber('3', 3));
+           
 
 
 
