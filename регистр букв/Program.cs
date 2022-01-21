@@ -17,16 +17,12 @@ namespace регистр_букв
             {
                 for (int j = 0; j < i; j++)
                 {
-                    Console.Write(i + " " + "\n");
+                   
+                    Console.Write(i + " ");
                 }
-                //Console.WriteLine(i);
+                Console.WriteLine();
+                
             }
-           
-
-
-
-
-
         }
     }
 }
